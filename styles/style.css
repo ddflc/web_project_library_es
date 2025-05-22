@@ -325,13 +325,11 @@
 
 .membership__steps {
   display: flex;
-  flex-wrap: wrap;
-  flex-basis: auto;
   justify-content: center;
   list-style-type: none;
-  padding-top: 80px;
+  padding: 0;
+  margin: 100px 0 0;
   gap: 40px;
-  list-style-type: none;
 }
 
 .step {
@@ -383,6 +381,7 @@
 }
 
 .footer__column-heading {
+  margin-bottom: 20px;
   font-size: 16px;
 }
 
@@ -401,6 +400,8 @@
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
   column-gap: 10px;
@@ -412,5 +413,5 @@
 }
 
 .footer__copyright {
-  margin: 16px 0px;
+  margin-top: 100px;
 }
